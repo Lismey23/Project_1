@@ -1,0 +1,47 @@
+.hide{
+    display: none;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+body {
+    align-items: center;
+    text-align: center;
+    background-color: rgb(50, 170, 206);
+}
+form {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 30px;
+}
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 50px;
+}
+h1 {
+    text-align: center;
+    color: rgb(12, 12, 133);
+    font-size: 45px;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: rubberBand;
+    animation-duration: 2s;
+    font-family: 'Permanent Marker', cursive;
+}
+.question {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 25px;
+    padding-top: 20px;
+}
+p span {
+    display: block;
+}
+::placeholder {
+    text-align: center;
+}
